@@ -1,5 +1,7 @@
+set +vx
 echo "CI: Installing Python 3.10..."
 
+pwd
 sudo apt update
 sudo apt install -y build-essential libncursesw5-dev libreadline-gplv2-dev libssl-dev libgdbm-dev libc6-dev libsqlite3-dev libbz2-dev libffi-dev liblzma-dev
 curl https://pyenv.run | bash

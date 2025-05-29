@@ -1,3 +1,6 @@
+set +vx
+
+pwd
 echo `which python` 
 for i in {1..100}; do 
 	echo "Attempt $i"; 
