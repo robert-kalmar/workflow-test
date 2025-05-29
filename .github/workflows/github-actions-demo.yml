@@ -17,7 +17,9 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: .github/workflows/install_python.sh
-      - run: .github/workflows/run_pip.sh
+      - run: .github/workflows/run_pip.sh 10
+      - run: .github/workflows/run_pip.sh 11
+      - run: .github/workflows/run_pip.sh 12
 
 
 
